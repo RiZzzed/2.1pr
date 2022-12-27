@@ -1,0 +1,433 @@
+@font-face {
+    font-family: PTSansRegular;
+    src: url("fonts/PTSans/PTSans-Regular.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: PTSansRegular;
+}
+body {
+    background-color: #000000;
+}
+header {
+    background-color: #0f0f0f;
+}
+header nav {
+    display: flex;
+    width: 1200px;
+    padding-top:25px;
+    padding-bottom: 19px;
+}
+.korzina {
+    margin-left: 60px;
+}
+.lupa {
+    margin-left: 40px;
+    width: 22px;
+    height: 22px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    width: 1120px;
+}
+.container {
+    width:1110px;
+    margin:0 auto;
+    margin-top: 44px;
+}
+.logo{
+    background-size:cover;
+}
+header nav ul li:nth-child(2) {
+    margin-right: 40px;
+    margin-left: 490px;
+}
+header nav ul li:nth-child(3){
+    margin-right: 40px;
+    
+    
+}
+
+header nav ul img:nth-child(4) {
+   width: 22px;
+   height: 22px;
+}
+header nav ul img:nth-child(5) {
+   width: 22px;
+   height: 22px;
+}
+.man {
+    background-image: url("img/man.png");
+    padding-bottom: 154px;
+}
+.loogo {
+    margin-left: 800px;
+    padding-top: 160px;
+    margin-right: auto;
+    
+    
+}
+
+
+#square {
+    width: 312px;
+    height: 312px;
+    background: none;
+    border: 4px solid white;
+}
+.vk{
+    padding-left: 65px;
+    padding-top: 110px;
+    
+}
+.gor {
+    padding-top: 7px;
+    font-size: 22px;
+    color: white;
+}
+.border {
+    border-bottom: 2px solid white;
+    margin-top: 8px;
+    width: 180px;
+}
+.text {
+    font-size: 16px;
+    color: white;
+    width: 730;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 80px;
+    line-height: 24px;
+}
+.manto {
+    display: flex;
+}
+.manpng {
+    background-image: url("img/man2.png");
+    width: 880px;
+    height: 730px;
+    float: right;
+}
+.clock {
+    display: flex;
+    margin-top: 90px;
+    margin-left: 81px;
+    margin-right: 32px;
+}
+#rectangle {
+    height: 325px;
+    width: 260px;
+    background: #191B1C;
+    margin-right: 49px;
+    
+}
+.textclock {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 95px;
+    
+}
+.imgg {
+    margin-top: 55px;
+    margin-left: 24px;
+}
+.down {
+    color: white;
+    margin-top: 26px;
+    margin-left: 1px;
+    font-size: 18px;
+}
+.downto {
+    color: white;
+    margin-top: 11px;
+    margin-left: 2px;
+    font-size: 16px;
+}
+.new {
+    color: white;
+    font-size: 39px;
+}
+.borderth {
+    border-bottom: 2px solid white;
+    padding-top: 15px;
+    margin-left: 121px;
+    width: 120px;
+}
+.textman {
+    margin-top: 485px;
+    margin-left: 260px;
+}
+.katalog {
+    width: 134px;
+    height: 44px;
+    background: none;
+    border: 1px solid white;
+    margin-top: 31px;
+    margin-left: 112px;
+}
+.button {
+    color: white;
+    margin-top: 11px;
+    margin-left: 27px;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.manth {
+    display: flex;
+}
+.mantopng {
+    background-image: url("img/man3.png");
+    width: 3429px;
+    height: 600px;
+    float: left;
+}
+.textmantf {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 102px;
+    margin-left: 8px;
+}
+.borderf {
+    border-bottom: 1px solid white;
+    padding-top: 29px;
+    margin-left: 450px;
+    width: 120px;
+}
+.textcol {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin-left: 279px;
+    margin-right: 267px;
+    margin-top: 40px;
+    line-height: 21px;
+}
+
+.position {
+    
+    margin-left: 10px;
+}
+.width {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 2px;
+    letter-spacing: 2px;
+}
+.buttonborder {
+    width: 307px;
+    height: 44px;
+    background: none;
+    border: 1px solid white;
+    margin-top: 66px;
+    margin-left: 357px;
+}
+.newtovar {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 122px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-left: 20px;
+}
+.clocks {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 406px;
+}
+.bordernew {
+    border-bottom: 1px solid white;
+    padding-top: 39px;
+    margin-left: 900px;
+    width: 120px;
+}
+#rectangleto {
+    height: 325px;
+    width: 260px;
+    background: #191B1C;
+    margin-right: 23px;
+}
+.clocksto {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 406px;
+    
+}
+.brend {
+    background: #0f0f0f;
+    width: 1920px;
+    padding-bottom: 80px;
+}
+.samtext {
+    color: white;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 150px;
+    padding-top: 56px;
+}
+.borderbrend {
+    border-bottom: 1px solid white;
+    padding-top: 36px;
+    margin-left: 900px;
+    width: 120px;
+}
+.imgbrend {
+    display: flex;
+    gap: 30px;
+    margin-left: 404px;
+    margin-top: 40px;
+    
+}
+.mantt {
+    background-image: url("img/Rectangle\ 15.png");
+    padding-bottom: 100px;
+}
+.flexblock {
+    display: flex;
+}
+.oneblock {
+    display: flex;
+    margin-bottom: 20px;
+}
+.toblock {
+    display: flex;
+}
+#rectanglea {
+    height: 40px;
+    width: 69px;
+    background-color: #0F0F0F;
+    margin-right: 23px;
+}
+#rectangled {
+    height: 40px;
+    width: 95px;
+    background-color: #0F0F0F;
+    margin-right: 23px;
+}
+#rectangleb {
+    height: 40px;
+    width: 163px;
+    background-color: #0F0F0F;
+    margin-right: 23px;
+}
+#rectanglec {
+    height: 40px;
+    width: 87px;
+    background-color: #0F0F0F;
+    margin-right: 23px;
+}
+.bloki {
+    text-align: center;
+    color: white;
+    font-size: 14;
+    margin-top: 8px;
+
+}
+.shop {
+    width: 787px;
+}
+.textshop {
+    color: white;
+    font-size: 14px;
+    margin-top: 39px;
+    margin-left: 406px;
+    margin-right: 29px;
+    line-height: 21px;
+}
+.shoptext {
+    color: white;
+    font-size: 25px;
+    margin-top: 75px;
+    margin-left: 406px;
+    width: 500px;
+}
+
+.categories {
+    margin-top: 100px;
+    margin-left: 0px;
+}
+.textcategories {
+    color: white;
+    font-size: 27px;
+    margin-left: -2px;
+    margin-top: -27px;
+  }
+.aaa {
+    margin-top: 40px;
+    margin-left: 0px;
+}
+.email {
+    display: flex;
+    margin-top: 38px;
+    margin-left: 76px;
+}
+#rectanglemail {
+    height: 42px;
+    width: 210px;
+    background-color: #8f8f8f;
+    opacity: 40%;
+}
+#sub{
+    height: 43px;
+    width: 141px;
+    background-color: #0F0F0F;   
+}
+.textrassilka {
+    color: white;
+    font-size: 27px;
+    margin-left: 77px;
+    margin-top: 73px;
+}
+.downrassilka {
+    color: white;
+    font-size: 14PX;
+    margin-top: 41px;
+    margin-left: 75px;
+    margin-right: 356px;
+    line-height: 20px;
+}
+.vasha {
+    color: #fff;
+    font-size: 14px;
+    opacity: 100%;
+    margin-top: 11px;
+    margin-left: 15px;
+}
+.sub_text {
+    color: white;
+    font-size: 15px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.ending {
+    display: flex;
+    background: #0F0F0F;
+    width: 1920;
+    padding-bottom: 50px;
+}
+.end {
+    color: #D0D0D0;
+    padding-top: 17px;
+    margin-left: 406px;
+    font-size: 12px;
+}
+.figma {
+    margin-left: 854px;
+    padding-top: 16px;
+    color: #D0D0D0;
+    font-size: 12px;
+    border-bottom: 1px solid white;
+}
